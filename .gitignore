@@ -1,0 +1,25 @@
+
+# Java build output
+target/
+build/
+out/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java compiled files
+*.class
+# Local database credentials
+db.properties
+# Temporary files
+*.tmp
+*.bak
